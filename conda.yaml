@@ -1,12 +1,10 @@
-name: aihackathon
-channels:
-  - conda-forge
-  - defaults
+name: aihackaton5
 dependencies:
-  - pip
+  - python=3.9.18
+  - pandas=2.0.3
+  - pip=23.2.1
+
   - pip:
-      - openai
-      - python-dotenv
+      - openai == 1.2.0
       - azure-ai-formrecognizer==3.2.0
-      - pandas
-      - python-dotenv
+      - python-dotenv == 1.0.0
